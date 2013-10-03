@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Last.fm Scrobble By Name",
+    "version": "0.0.1",
+
+    "description": "Scrobble whatever you can type",
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    }, 
+    "background": {
+        "scripts": ["md5.js", "lastfm.js", "background.js"],
+        "persistent": false
+    },
+
+    "browser_action": {
+        "default_icon": "img/main_icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "author": "Andrew Nguyen (atnguyen4@gmail.com)"
+}

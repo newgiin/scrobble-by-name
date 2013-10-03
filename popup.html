@@ -1,0 +1,32 @@
+<html>
+<head>
+<style type="text/css">
+#submit_btn, #user_info {
+    float:right;
+}
+
+.success {
+    color: #066600;
+}
+
+.fail {
+    color: #F00;
+}
+
+</style>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+    <form id="scrble_form">
+        Artist*: <input id="artist" type="text"/><br/>
+        Title*: <input id="track" type="text"/><br/>
+        Album: <input id="album" type="text"/><br/>
+        <input id="submit_btn" type="submit" value="Scrobble"/>
+    </form>
+    <span id="status"></span><br/>
+    <div id="user_info">
+        <a id="user" href="#"></a>
+        <a id="auth_link" href="#">Login</a>
+    </div>
+</body>
+</html>
