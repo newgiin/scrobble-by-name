@@ -1,6 +1,6 @@
 var SETTINGS = {
-    api_key: '39c795e91c62cf9d469392c7c2648c80',
-    api_secret: 'ef177df773b7eab5193e52115a315604',
+    api_key: 'dd5b94d477d2c3c2cbc51362f12680b8',
+    api_secret: 'c8feadce3ebbf6a0aefd5dfa3ae3cf42',
     callback_file: 'auth_callback.html'
 }
 
