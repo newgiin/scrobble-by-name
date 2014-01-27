@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Last.fm Manual Scrobbler",
-    "version": "1.0.0",
+    "version": "1.0.1",
 
     "description": "Scrobble whatever you type",
     "icons": {
@@ -21,6 +21,8 @@
         }, 
         "default_popup": "popup.html"
     },
-
+   "web_accessible_resources": [
+        "auth_callback.html"
+    ],
     "author": "Andrew Nguyen (andruunwien.com)"
 }
